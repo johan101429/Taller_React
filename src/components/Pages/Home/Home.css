@@ -1,0 +1,36 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.home-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.home-container .component-wrapper {
+    margin-bottom: 40px;
+}
+
+.home-container .component-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.home-container .component-wrapper>div {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-container .component-wrapper>div h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #495057;
+}

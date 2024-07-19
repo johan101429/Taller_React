@@ -1,0 +1,60 @@
+/* stylo de Timer */
+
+
+#timer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 0px;
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+
+/* Estilo para el título del temporizador */
+#timer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo para la visualización de los segundos */
+#timer div {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Estilo para los botones */
+#timer button {
+    background-color: #4CAF50;
+    /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#timer button:hover {
+    background-color: #45a049;
+    /* Verde más oscuro */
+}
+
+#timer button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}

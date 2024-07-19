@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #9caae9, #433f46);
+    color: #4b4545;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 25px 0 15px;
+}
+
+div {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#digital-clock,
+#user-active,
+#contador-clics,
+#timer {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+#digital-clock:hover,
+#user-active:hover,
+#contador-clics:hover,
+#timer:hover {
+    transform: translateY(-10px);
+}
+
+#contador-clics button {
+    background-color: #ff6f61;
+    color: white;
+}
+
+#contador-clics button:hover {
+    background-color: #e25447;
+}
+
+#timer button {
+    background-color: #4caf50;
+    color: white;
+}
+
+#timer button:hover {
+    background-color: #388e3c;
+}
